@@ -7,6 +7,7 @@ title: Contact Nikola Andrić
   <h1 class="pageTitle">Contact Me</h1>
   <div class="contactContent">
    <!-- <p class="intro">Feel <code>contact.html</code> file.</p>-->
+    <p></p>
     <p> If you have any questions, suggestions, or critique feel free to contact me!</p>
   <!--  <p>If you have questions about the theme feel free to <a href="mailto:brimaidesigns@gmail.com">email me</a> or create an issue on <a href="https://github.com/brianmaierjr/long-haul">GitHub</a>. Enjoy!</p>-->
   </div>
