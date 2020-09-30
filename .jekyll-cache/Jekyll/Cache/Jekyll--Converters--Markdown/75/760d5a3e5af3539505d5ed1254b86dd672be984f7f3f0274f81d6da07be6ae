@@ -1,0 +1,13 @@
+I"y<div id="articles">
+  <h1>Articles</h1>
+  <ul class="posts noList">
+    
+      <li>
+      	<span class="date">22 Sep 2020</span>
+      	<h3><a href="/blog/test-post/">Mixed Traffic</a></h3>
+      	<p class="description">Mixed traffic in MATSim brings more opportunities. Can we use different modalities on the same network? What would th...</p>
+      </li>
+    
+  </ul>
+</div>
+:ET

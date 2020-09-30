@@ -1,0 +1,11 @@
+I"\<p class="intro"><span class="dropcap">M</span>ixed traffic in MATSim brings more opportunities. Can we use different modalities on the same network? What would that enable us to do?</p>
+
+<!-- just type out the text without html -->
+<p>Having different modalities on the same network is something that has already been implemented before. However, modalities that I am refering to are regular cars, bicycles, public transportation, etc.</p>
+
+<p>The question is how to create a network that contains regular vehicles mixed with ride-sharing vehicles (taxis). In my current research, I am trying to implement Peagu’s example where the network will contain
+a mixed traffic of regular vehicles with ride-sharing vehicles. The code for this example can be found <a href="https://github.com/NikolaAndro/MATSim">here</a>.</p>
+
+<p>This implementation is still in process. Current issue is that regular vehicles and ride-sharing vehicles do not use the same dtd (Document Type Description) files. Regular vehicles use plans_v4.dtd for plans file. 
+On the other hand, I am not sure what would ride-sharing vehicles use.</p>
+:ET
