@@ -11,7 +11,7 @@ title: Contact Nikola Andrić
     <p> If you have any questions, suggestions, or critique feel free to contact me!</p>
   <!--  <p>If you have questions about the theme feel free to <a href="mailto:dzonikika@yahoo.com">email me</a> or create an issue on <a href="https://github.com/NikolaAndro/MATSim_blog">GitHub</a>. Enjoy!</p>-->
   </div>
-  <form action="http://formspree.io/dzonikika@yahoo.com.com" method="POST">
+  <form action="http://formspree.io/dzonikika@yahoo.com" method="POST">
     <label for="name">Name</label>
     <input type="text" id="name" name="name" class="full-width"><br>
     <label for="email">Email Address</label>
