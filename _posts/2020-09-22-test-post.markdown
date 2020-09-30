@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Mixed Trafic"
+title:  "Mixed Traffic"
 date:   2020-09-22
 ---
 
