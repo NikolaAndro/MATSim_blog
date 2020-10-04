@@ -8,13 +8,29 @@ date:   2020-10-04
 
 <img src="{{ '/assets/img/touring.jpg' | prepend: site.baseurl }}" alt=""> 
 
-As we can already see from other examples from MATSim researchers, in order to have a ride-sharing vehicles network, we have to enter that module in our config file. For instance, in Pegou's example that I am 
+As we can already see from other examples from MATSim researchers, in order to have a ride-sharing vehicles network, we have to enter that module in our config file. For instance, in 
+<a href="https://github.com/NikolaAndro/MATSim/blob/master/Pigou's%20Example/scenarios/Pigou_multiModal_2020/mielec_taxi_config_rulebased.xml">Pegou's example </a> that I am 
 implementing, that configuration looks something like this:
 
 {% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+<module name="multiModeTaxi">
+	<parameterset type="taxi">
+		<param name="destinationKnown" value="false"/>
+		<param name="vehicleDiversion" value="false"/>
+		<param name="pickupDuration" value="120"/>
+		<param name="dropoffDuration" value="60"/>
+		<param name="onlineVehicleTracker" value="false"/>
+
+		<param name="taxisFile" value="taxis-25.xml"/>
+
+		<param name="timeProfiles" value="true"/>
+		<param name="detailedStats" value="true"/>
+
+		<!-- This is a rule based dispatch algorithm -->
+		<parameterset type="RuleBasedTaxiOptimizer"/>
+
+	</parameterset>
+</module>
 {% endhighlight %}
+
+
