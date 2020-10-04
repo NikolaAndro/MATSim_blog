@@ -4,7 +4,7 @@ title:  "Mixed Traffic Configuration"
 date:   2020-10-04
 ---
 
-<p class="intro"><span class="dropcap">C</span>onfiguring mixed traffic in MATSim is not a very popular topic. Hence, here I will be posting updates on mixed traffic configuration.
+<p class="intro"><span class="dropcap">C</span>onfiguring mixed traffic in MATSim is not a very popular topic. Hence, here I will be posting updates on mixed traffic configuration.</p>
 
 As we can already see from other examples from MATSim researchers, in order to have a ride-sharing vehicles network, we have to enter that module in our config file. For instance, in 
 <a href="https://github.com/NikolaAndro/MATSim/blob/master/Pigou's%20Example/scenarios/Pigou_multiModal_2020/mielec_taxi_config_rulebased.xml">Pegou's example</a> that I am 
