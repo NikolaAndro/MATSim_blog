@@ -31,6 +31,15 @@ implementing, that configuration looks something like this:
 </module>
 {% endhighlight %}
 
-In this example we can see different parameters of the dynamic ageents (ride-sharing vehicles/taxis). One of the parameters is a <a href="https://github.com/NikolaAndro/MATSim/blob/master/Pigou's%20Example/scenarios/Pigou_multiModal_2020/taxis-25.xml">taxisFile</a> 
-which contains all the taxis that are supposed to be on the network. 
+In this example we can see different parameters of the dynamic ageents (ride-sharing vehicles/taxis). 
 
+One of the parameters is a <a href="https://github.com/NikolaAndro/MATSim/blob/master/Pigou's%20Example/scenarios/Pigou_multiModal_2020/taxis-25.xml">taxisFile</a> 
+which contains all the taxis that are supposed to be on the network. Each ride-sharing vehicle has its starting position. From there, each vehicle should decide which road it will
+take in order to reach the desired destination. Vehicle's decision is based on algorithm provided in the config file.
+
+{% highlight ruby %}
+	<!-- This is a rule based dispatch algorithm -->
+	<parameterset type="RuleBasedTaxiOptimizer"/>
+{% endhighlight %}
+
+Regular vehicles (cars)....
