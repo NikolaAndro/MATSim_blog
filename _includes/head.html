@@ -30,8 +30,7 @@
       <meta content="{{ site.url }}/about/" property="article:author">
     {% endif %}
     {% if page.image %}
-      <meta content="{{ '/assets/img/touring.jpg' | prepend: site.url }}" property="og:image">
-    <!-- site.url }}/assets/img/{{ page.image-->
+      <meta content="{{ site.url }}/assets/img/{{ page.imag }}" property="og:image">
     {% else %}
       <meta content="{{ '/assets/img/touring.jpg' | prepend: site.url }}" property="og:image">
     {% endif %}
@@ -54,8 +53,7 @@
       <meta name="twitter:description" content="{{ site.description }}">
     {% endif %}
     {% if page.image %}
-      <meta name="twitter:image:src" content="{{ '/assets/img/touring.jpg' | prepend: site.url }}">
-    <!-- site.url }}/assets/img/{{ page.image -->
+      <meta name="twitter:image:src" content="{{  site.url }}/assets/img/{{ page.image}}">
     {% else %}
       <meta name="twitter:image:src" content="{{ '/assets/img/touring.jpg' | prepend: site.url }}">
     {% endif %}
