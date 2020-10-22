@@ -15,5 +15,4 @@ Furthermore, having modalities such as ride-sharing vehicles and regular vehicle
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The question is how to create a network that contains regular vehicles mixed with ride-sharing vehicles (taxis). In my current research, I am trying to implement Peagu's example where the network will contain
 a mixed traffic of regular vehicles with ride-sharing vehicles. The code for this example can be found <a href="https://github.com/NikolaAndro/MATSim" >here</a>.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This implementation is still in process. Current issue is that regular vehicles and ride-sharing vehicles do not use the same .dtd (Document Type Description) files. Regular vehicles use plans_v4.dtd for plans file. 
-On the other hand, I am not sure what would ride-sharing vehicles use.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This implementation is still in process. 
