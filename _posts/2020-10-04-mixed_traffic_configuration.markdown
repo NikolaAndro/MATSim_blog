@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mixed Traffic Configuration"
-date:   2020-10-04
+date:   2020-10-22
 ---
 
 <p class="intro"><span class="dropcap">C</span>onfiguring mixed traffic in MATSim is not a very popular topic. Hence, here I will be posting updates on mixed traffic configuration.</p>
