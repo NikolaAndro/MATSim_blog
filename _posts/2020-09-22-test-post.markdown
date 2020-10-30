@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Mixed Traffic"
-date:   2020-09-22
+date:   2020-10-29
 ---
 
 <p class="intro"><span class="dropcap">M</span>ixed traffic in MATSim brings more opportunities. Can we use different modalities on the same network? What would that enable us to do?</p>
@@ -12,7 +12,8 @@ Furthermore, having modalities such as ride-sharing vehicles and regular vehicle
  
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Having different modalities on the same network is something that has already been implemented before. However, modalities that I am referring to are regular cars, bicycles, public transportation, etc. 
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The question is how to create a network that contains regular vehicles mixed with ride-sharing vehicles (taxis). In my current research, I am trying to implement Peagu's example where the network will contain
-a mixed traffic of regular vehicles with ride-sharing vehicles. The code for this example can be found <a href="https://github.com/NikolaAndro/MATSim" >here</a>.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The question is how to create a network that contains regular vehicles mixed with ride-sharing vehicles (taxis). In my current research, I am trying to implement Peagu's example where the network will contain a mixed traffic of regular vehicles with ride-sharing vehicles. The code for this example can be found <a href="https://github.com/NikolaAndro/MATSim" >here</a>.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This implementation is still in process. 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The first solution for having multiple modalities in one simulation is that we can have multi layered network. For each mode there can be a layer, and those layers are connected to each other. However, after the research project NetCap in ETH, Switzerland, we are able to have a fully multi modal network without having to have layers. This package refers to having PT (public transit) and private transit in the same network so regular vehicles (cars) and busses can compete for slots on the network and interact with each other. Before this package, we had multiple layers so cars would not be impacted by bus stopping or impacted by slow bus driving.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This package, however, does not refer to the problem of having ride-sharing vehicles and regular vehicles on the same network while impacting each other. Since ride-sharing vehicles are car based mode, the simulation is treating them as cars.
