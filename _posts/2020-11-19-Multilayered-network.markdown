@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Multilayered Net"
+title:  "Multilayered Network"
 date:   2020-11-19
 ---
 
