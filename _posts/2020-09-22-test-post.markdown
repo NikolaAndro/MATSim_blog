@@ -17,3 +17,7 @@ Furthermore, having modalities such as ride-sharing vehicles and regular vehicle
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; The first solution for having multiple modalities in one simulation is that we can have multi layered network. For each mode there can be a layer, and those layers are connected to each other. However, after the research project NetCap in ETH, Switzerland, we are able to have a fully multi modal network without having to have layers. This package refers to having PT (public transit) and private transit in the same network so regular vehicles (cars) and busses can compete for slots on the network and interact with each other. Before this package, we had multiple layers so cars would not be impacted by bus stopping or impacted by slow bus driving.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; This package, however, does not refer to the problem of having ride-sharing vehicles and regular vehicles on the same network while impacting each other. Since ride-sharing vehicles are car based mode, the simulation is treating them as cars.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; According to my new findings, since taxis are car based modality, there is no need for another network. Hence, we just need to add regular cars and vehicles correctly in configuration file and simulation should run correctly.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; You can checkout <a href="https://github.com/NikolaAndro/MATSim" >Pigou's Example</a>.
