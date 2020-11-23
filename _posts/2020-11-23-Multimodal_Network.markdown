@@ -21,3 +21,11 @@ Furthermore, having modalities such as ride-sharing vehicles and regular vehicle
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; According to my new findings, since taxis are car based modality, there is no need for another network, or a multilayered network. Hence, we just need to add regular cars and vehicles correctly in configuration file and simulation should run correctly.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; You can checkout <a href="https://github.com/NikolaAndro/MATSim" >Pigou's Example</a>.
+
+
+In the following image, you can see a scenario with regular cars and taxis on the same sigle-layered netwrok.
+
+<p align="center">
+  <img src="../assets/img/cars_and_taxis.PNG?raw=true">
+</p>
+
