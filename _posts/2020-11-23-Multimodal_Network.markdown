@@ -25,7 +25,7 @@ Furthermore, having modalities such as ride-sharing vehicles and regular vehicle
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;In the following image, you can see a scenario with regular cars and taxis on the same sigle-layered netwrok.
 
-![Pigou](../assets/img/cars_and_taxis.PNG)
+![Pigou](../assets/img/cars_and_taxis.PNG?raw=true)
 <!--<img align="center" src="../assets/img/cars_and_taxis.PNG?raw=true">-->
 
 
