@@ -31,5 +31,5 @@ Furthermore, having modalities such as ride-sharing vehicles and regular vehicle
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sources:
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href = https://github.com/matsim-org/matsim-maas > matsim-maas by Michal Macijewski</a>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://github.com/matsim-org/matsim-maas" > matsim-maas by Michal Macijewski</a>
 
