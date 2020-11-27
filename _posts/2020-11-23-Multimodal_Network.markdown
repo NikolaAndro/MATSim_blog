@@ -29,8 +29,9 @@ Furthermore, having modalities such as ride-sharing vehicles and regular vehicle
 ![Pigou](cars_and_taxis.PNG?raw=true)
 <!--<img align="center" src="../assets/img/cars_and_taxis.PNG?raw=true">-->
 
-![This is just a test](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.ivt.ethz.ch%2Fen%2Fresearch%2Fmatsim.html&psig=AOvVaw06XPz76EUPDYMCOfRye9Q-&ust=1606579261743000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCOjA_6WMo-0CFQAAAAAdAAAAABAF)
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Sources:
+![This is just a test](https://www.google.com/search?q=cat+image&tbm=isch&ved=2ahUKEwjQ_O6ijKPtAhXMGN8KHf4KAakQ2-cCegQIABAA&oq=cat+image&gs_lcp=CgNpbWcQA1DdmAhYtbEIYLixCGgAcAB4BIAB_ASIAc8UkgEFMi41LTSYAQCgAQGqAQtnd3Mtd2l6LWltZ7ABAMABAQ&sclient=img&ei=vSLBX5CqLcyx_Ab-lYTICg&bih=1009&biw=1848&rlz=1C1CHBF_enUS894US894#imgrc=rhaDRoK406Z9TM)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="https://github.com/matsim-org/matsim-maas" > matsim-maas by Michal Macijewski</a>
+Sources:
+
+<a href="https://github.com/matsim-org/matsim-maas" > matsim-maas by Michal Macijewski</a>
 
